@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Oro
+ * @package    Oro_Design
+ * @copyright  Copyright (c) 2014 Oro Inc. DBA MageCore (http://www.magecore.com)
+ */
+-->
+<config>
+    <modules>
+        <Oro_Design>
+            <version>1.0.0</version>
+        </Oro_Design>
+    </modules>
+    <global>
+        <helpers>
+            <oro_design>
+                <class>Oro_Design_Helper</class>
+            </oro_design>
+        </helpers>
+        <resources>
+            <oro_design_setup>
+                <setup>
+                    <module>Oro_Design</module>
+                    <class>Mage_Core_Model_Resource_Setup</class>
+                </setup>
+            </oro_design_setup>
+        </resources>
+    </global>
+</config>

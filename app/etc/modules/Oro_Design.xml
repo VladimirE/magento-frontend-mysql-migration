@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Oro_Design>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Oro_Design>
+    </modules>
+</config>
